@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
   res.write('<h1> Hello <\h1>');
-  res.write('<h2> World <\h2>');
+  res.write('<h1> World <\h1>');
   res.end();
 });
 
